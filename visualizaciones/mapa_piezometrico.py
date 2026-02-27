@@ -270,6 +270,7 @@ def crear_mapa_piezometrico(resultados: dict, Q: float, D: float) -> go.Figure:
     fig.update_layout(
         height=900,
         template='plotly_white',
+        paper_bgcolor='rgba(0,0,0,0)',
         font=dict(family='Inter, system-ui, sans-serif', size=13, color='#334155'),
         hoverlabel=dict(
             bgcolor="white",
@@ -380,6 +381,7 @@ def crear_desglose_perdidas(resultados: dict) -> go.Figure:
         xaxis_title='<b>Tramo</b>',
         yaxis_title='<b>Carga (m)</b>',
         template='plotly_white',
+        paper_bgcolor='rgba(0,0,0,0)',
         height=500,
         font=dict(family='Inter, system-ui, sans-serif', size=13, color='#334155'),
         hoverlabel=dict(bgcolor="white", font_size=13, font_family="Inter, system-ui, sans-serif"),
@@ -429,6 +431,7 @@ def crear_grafico_potencia(resultados: dict) -> go.Figure:
         title='<b>Potencia Requerida por Tramo</b><br>'
               '<span style="font-size:12px; color:#64748B">Verde = Bomba | Naranja = Válvula estrangulamiento (sin bomba)</span>',
         template='plotly_white',
+        paper_bgcolor='rgba(0,0,0,0)',
         height=450,
         showlegend=False,
         font=dict(family='Inter, system-ui, sans-serif', size=13, color='#334155'),
@@ -545,7 +548,9 @@ def crear_perfil_terreno_con_tramos(resultados: dict) -> go.Figure:
         xaxis_title='Distancia acumulada (m)',
         yaxis_title='Elevación (m)',
         template='plotly_white',
+        paper_bgcolor='rgba(0,0,0,0)',
         height=550,
+        font=dict(family='Inter, system-ui, sans-serif', size=13, color='#334155'),
         legend=dict(orientation='h', yanchor='bottom', y=1.05, xanchor='center', x=0.5),
     )
     

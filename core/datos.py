@@ -26,7 +26,7 @@ def _limpiar_numero(valor: str) -> float:
 def cargar_csv(ruta: str | Path | None = None) -> list[list[str]]:
     """Lee el CSV crudo y devuelve una lista de filas (cada fila es lista de strings)."""
     if ruta is None:
-        ruta = Path(__file__).parent.parent / "CALCULOS_HIDRAULICOS.csv"
+        ruta = Path(__file__).parent.parent / "PROCESOS UNITARIOS" / "CALCULOS_HIDRAULICOS.csv"
     ruta = Path(ruta)
 
     filas = []

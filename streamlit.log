@@ -1,0 +1,707 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.20:8501
+  External URL: http://158.172.227.75:8501
+
+2026-02-27 11:23:13.084 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:13.102 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:13.105 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:13.108 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:23:14.585 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:14.601 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:14.603 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:14.604 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:24:34.130 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:24:34.146 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:24:34.148 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:24:34.150 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:29:03.770 304 GET / (127.0.0.1) 0.83ms
+2026-02-27 11:29:04.570 200 GET /_stcore/health (127.0.0.1) 0.75ms
+2026-02-27 11:29:04.570 304 GET /_stcore/host-config (127.0.0.1) 0.74ms
+2026-02-27 11:29:05.594 101 GET /_stcore/stream (127.0.0.1) 1.13ms
+2026-02-27 11:29:06.084 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:06.101 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:06.103 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:06.104 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:29:12.987 304 GET / (127.0.0.1) 0.86ms
+2026-02-27 11:29:13.298 304 GET /_stcore/host-config (127.0.0.1) 0.28ms
+2026-02-27 11:29:13.302 200 GET /_stcore/health (127.0.0.1) 0.26ms
+2026-02-27 11:29:13.881 101 GET /_stcore/stream (127.0.0.1) 1.13ms
+2026-02-27 11:29:14.157 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:14.173 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:14.176 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:14.177 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:32:30.546 304 GET / (127.0.0.1) 1.22ms
+2026-02-27 11:32:31.102 200 GET /_stcore/health (127.0.0.1) 0.43ms
+2026-02-27 11:32:31.122 304 GET /_stcore/host-config (127.0.0.1) 0.28ms
+2026-02-27 11:32:31.872 101 GET /_stcore/stream (127.0.0.1) 1.42ms
+2026-02-27 11:32:32.380 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:32:32.398 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:32:32.402 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:32:32.421 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 329, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:41:38.129 304 GET / (127.0.0.1) 1.04ms
+2026-02-27 11:41:38.658 304 GET /_stcore/host-config (127.0.0.1) 0.32ms
+2026-02-27 11:41:38.676 200 GET /_stcore/health (127.0.0.1) 0.39ms
+2026-02-27 11:41:39.460 101 GET /_stcore/stream (127.0.0.1) 1.63ms
+2026-02-27 11:41:39.925 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:41:39.943 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:41:39.945 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:41:39.947 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:41:40.144 200 GET /static/js/index.CbR6dgaV.js (127.0.0.1) 1.50ms
+2026-02-27 11:41:40.145 200 GET /static/js/iconPosition.B4EEXI3E.js (127.0.0.1) 2.08ms
+2026-02-27 11:41:41.084 200 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (127.0.0.1) 0.40ms
+2026-02-27 11:42:58.964 304 GET / (::1) 0.48ms
+2026-02-27 11:42:59.100 304 GET /_stcore/host-config (::1) 0.33ms
+2026-02-27 11:42:59.101 304 GET /_stcore/health (::1) 0.34ms
+2026-02-27 11:42:59.128 101 GET /_stcore/stream (::1) 0.56ms
+2026-02-27 11:42:59.207 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:42:59.226 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:42:59.231 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:42:59.232 200 GET /static/js/index.CbR6dgaV.js (::1) 5.97ms
+2026-02-27 11:42:59.233 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:42:59.236 200 GET /static/js/iconPosition.B4EEXI3E.js (::1) 9.22ms
+2026-02-27 11:42:59.431 200 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.40ms
+2026-02-27 11:43:00.024 304 GET / (::1) 0.38ms
+2026-02-27 11:43:00.080 304 GET /_stcore/health (::1) 0.41ms
+2026-02-27 11:43:00.081 304 GET /_stcore/host-config (::1) 0.23ms
+2026-02-27 11:43:00.088 101 GET /_stcore/stream (::1) 0.57ms
+2026-02-27 11:43:00.141 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:00.160 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:00.163 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:00.165 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:43:00.331 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.71ms
+2026-02-27 11:43:09.419 304 GET / (::1) 0.32ms
+2026-02-27 11:43:09.465 304 GET /_stcore/health (::1) 0.51ms
+2026-02-27 11:43:09.465 304 GET /_stcore/host-config (::1) 0.25ms
+2026-02-27 11:43:09.472 101 GET /_stcore/stream (::1) 0.69ms
+2026-02-27 11:43:09.529 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:09.549 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:09.553 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:09.555 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:43:09.712 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.34ms
+2026-02-27 11:43:11.659 200 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 2.20ms
+2026-02-27 11:43:11.708 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:11.728 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:11.731 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:11.733 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:48:58.541 304 GET / (::1) 0.46ms
+2026-02-27 11:48:58.663 304 GET /_stcore/health (::1) 0.48ms
+2026-02-27 11:48:58.664 304 GET /_stcore/host-config (::1) 0.34ms
+2026-02-27 11:48:58.672 101 GET /_stcore/stream (::1) 0.69ms
+2026-02-27 11:48:58.772 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:48:58.776 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.49ms
+2026-02-27 11:48:58.796 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:48:58.802 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:48:58.817 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:48:59.947 304 GET / (::1) 0.50ms
+2026-02-27 11:49:00.006 304 GET /_stcore/health (::1) 0.52ms
+2026-02-27 11:49:00.006 304 GET /_stcore/host-config (::1) 0.42ms
+2026-02-27 11:49:00.015 101 GET /_stcore/stream (::1) 0.57ms
+2026-02-27 11:49:00.083 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.113 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.116 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.118 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.42ms
+2026-02-27 11:49:00.119 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:00.486 304 GET / (::1) 0.34ms
+2026-02-27 11:49:00.700 304 GET /_stcore/health (::1) 0.43ms
+2026-02-27 11:49:00.701 304 GET /_stcore/host-config (::1) 0.23ms
+2026-02-27 11:49:00.708 101 GET /_stcore/stream (::1) 0.60ms
+2026-02-27 11:49:00.773 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.796 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.799 304 GET / (::1) 2.13ms
+2026-02-27 11:49:00.801 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.803 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+Task exception was never retrieved
+future: <Task finished name='Task-1147' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2026-02-27 11:49:00.976 304 GET /_stcore/health (::1) 0.89ms
+2026-02-27 11:49:00.976 304 GET /_stcore/host-config (::1) 0.94ms
+2026-02-27 11:49:00.984 101 GET /_stcore/stream (::1) 0.67ms
+2026-02-27 11:49:01.047 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:01.071 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:01.074 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:01.075 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:01.237 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.41ms
+2026-02-27 11:49:02.807 304 GET / (::1) 0.31ms
+2026-02-27 11:49:02.853 304 GET /_stcore/health (::1) 0.38ms
+2026-02-27 11:49:02.853 304 GET /_stcore/host-config (::1) 0.26ms
+2026-02-27 11:49:02.865 101 GET /_stcore/stream (::1) 0.59ms
+2026-02-27 11:49:02.920 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:02.941 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:02.944 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:02.945 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:03.103 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.48ms
+2026-02-27 11:49:03.602 304 GET / (::1) 0.36ms
+2026-02-27 11:49:03.659 304 GET /_stcore/health (::1) 0.79ms
+2026-02-27 11:49:03.661 304 GET /_stcore/host-config (::1) 0.38ms
+2026-02-27 11:49:03.670 101 GET /_stcore/stream (::1) 0.68ms
+2026-02-27 11:49:03.738 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:03.760 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:03.764 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:03.765 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:03.937 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.36ms
+2026-02-27 11:49:59.342 200 GET /_stcore/health (127.0.0.1) 0.40ms
+2026-02-27 11:49:59.343 304 GET /_stcore/host-config (127.0.0.1) 0.19ms
+2026-02-27 11:50:00.115 101 GET /_stcore/stream (127.0.0.1) 0.43ms
+2026-02-27 11:50:54.625 304 GET / (127.0.0.1) 0.32ms
+2026-02-27 11:50:55.212 200 GET /_stcore/health (127.0.0.1) 1.13ms
+2026-02-27 11:50:55.216 304 GET /_stcore/host-config (127.0.0.1) 0.25ms
+2026-02-27 11:50:55.802 101 GET /_stcore/stream (127.0.0.1) 0.51ms
+2026-02-27 11:50:56.092 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:56.112 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:56.115 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:56.117 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:50:56.439 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (127.0.0.1) 0.50ms
+2026-02-27 11:50:59.001 304 GET / (::1) 0.38ms
+2026-02-27 11:50:59.102 304 GET /_stcore/health (::1) 0.42ms
+2026-02-27 11:50:59.103 304 GET /_stcore/host-config (::1) 0.29ms
+2026-02-27 11:50:59.113 101 GET /_stcore/stream (::1) 1.77ms
+2026-02-27 11:50:59.202 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:59.225 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:59.228 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:59.230 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:50:59.400 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.42ms
+2026-02-27 11:51:00.124 304 GET / (::1) 0.37ms
+2026-02-27 11:51:00.174 304 GET /_stcore/health (::1) 0.41ms
+2026-02-27 11:51:00.174 304 GET /_stcore/host-config (::1) 0.31ms
+2026-02-27 11:51:00.182 101 GET /_stcore/stream (::1) 0.97ms
+2026-02-27 11:51:00.254 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:51:00.274 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:51:00.277 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:51:00.279 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:51:00.455 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.33ms

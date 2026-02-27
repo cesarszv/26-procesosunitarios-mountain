@@ -4,7 +4,7 @@
 		{
 			"label": "Run Streamlit App",
 			"type": "shell",
-			"command": "& '${command:python.interpreterPath}' -m streamlit run app.py",
+			"command": "& '${command:python.interpreterPath}' 	",
 			"isBackground": true,
 			"problemMatcher": [],
 			"group": {

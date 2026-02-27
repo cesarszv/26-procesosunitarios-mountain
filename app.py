@@ -45,84 +45,153 @@ st.set_page_config(
 # CSS personalizado
 st.markdown("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
     
     html, body, [class*="css"] {
         font-family: 'Inter', sans-serif;
+        color: #334155;
     }
     
-    .stMetric > div {
+    /* Modern Metric Cards */
+    [data-testid="stMetric"] {
         background-color: #ffffff;
-        border-radius: 12px;
-        padding: 15px 20px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        border: 1px solid #f0f2f6;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        border: 1px solid #e2e8f0;
+        transition: all 0.2s ease;
     }
     
-    .stMetric > div:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    [data-testid="stMetric"]:hover {
+        border-color: #cbd5e1;
+        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
     }
     
     .main .block-container {
-        padding-top: 2rem;
-        max-width: 1200px;
+        padding-top: 2.5rem;
+        max-width: 1100px;
     }
     
-    h1 { 
-        color: #1e293b; 
-        font-weight: 700;
-        letter-spacing: -0.025em;
+    /* Typography improvements */
+    h1, h2, h3, h4, h5, h6 {
+        color: #0f172a;
+        font-weight: 600;
+        letter-spacing: -0.02em;
     }
     
     h2 { 
-        color: #334155; 
-        font-weight: 600;
-        border-bottom: 2px solid #e2e8f0; 
-        padding-bottom: 8px; 
-        margin-top: 1.5rem;
+        border-bottom: 1px solid #f1f5f9; 
+        padding-bottom: 0.75rem; 
+        margin-top: 2.5rem; 
     }
     
-    h3 { 
-        color: #475569; 
-        font-weight: 500;
-    }
-    
-    /* Estilizar las pestañas */
+    /* Cleaner Tabs */
     .stTabs [data-baseweb="tab-list"] {
         gap: 8px;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #e2e8f0;
     }
     
     .stTabs [data-baseweb="tab"] {
-        height: 50px;
+        height: 48px;
         white-space: pre-wrap;
-        background-color: #f8fafc;
-        border-radius: 8px 8px 0 0;
-        gap: 1px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: 1px solid #e2e8f0;
-        border-bottom: none;
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0 16px;
+        border: none;
+        border-bottom: 2px solid transparent;
+        color: #64748b;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+    
+    .stTabs [data-baseweb="tab"]:hover {
+        color: #0f172a;
     }
     
     .stTabs [aria-selected="true"] {
-        background-color: #ffffff;
-        border-top: 3px solid #3b82f6;
+        background-color: transparent !important;
+        color: #0f172a !important;
+        border-bottom: 2px solid #0f172a !important;
         font-weight: 600;
+    }
+    
+    /* Clean Expanders */
+    [data-testid="stExpander"] {
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        background-color: #ffffff;
+    }
+    [data-testid="stExpander"] > details > summary {
+        padding: 14px 16px;
+        font-weight: 500;
+        color: #1e293b;
+    }
+    [data-testid="stExpander"] > details > summary:hover {
+        color: #0f172a;
+    }
+    
+    /* Button styles */
+    .stButton > button {
+        border-radius: 6px;
+        font-weight: 500;
+        border: 1px solid #e2e8f0;
+        transition: all 0.2s ease;
+    }
+    .stButton > button:hover {
+        border-color: #cbd5e1;
+        background-color: #f8fafc;
     }
 </style>
 """, unsafe_allow_html=True)
 
 
 # ====================================
-# SIDEBAR — PARÁMETROS INTERACTIVOS
+# SIDEBAR
 # ====================================
-st.sidebar.title("⚙️ Parámetros del Sistema")
-st.sidebar.markdown("Ajusta las variables para recalcular el sistema en tiempo real.")
-st.sidebar.markdown("---")
 
-with st.sidebar.expander("📐 Tubería", expanded=True):
+# --- Memoria de Cálculo ---
+with st.sidebar.container(border=True):
+    st.markdown(
+        "<div style='text-align: center; padding: 5px 0;'>"
+        "<h3 style='margin-top: 0; color: #0f172a; font-size: 1.05rem; font-weight: 600;'>Documentación</h3>"
+        "<p style='font-size: 0.85em; color: #64748b; margin-bottom: 12px;'>"
+        "Memoria de cálculo y justificación teórica."
+        "</p>"
+        "</div>", 
+        unsafe_allow_html=True
+    )
+    
+    informe_path = Path("source/INFORME_PROYECTO.docx")
+    if informe_path.exists():
+        with open(informe_path, "rb") as f:
+            st.download_button(
+                label="📥 Descargar Informe",
+                data=f,
+                file_name="INFORME_PROYECTO_Procesos_Unitarios.docx",
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                type="primary",
+                use_container_width=True,
+                key="sidebar_download_informe"
+            )
+    else:
+        st.error("Archivo no encontrado")
+
+st.sidebar.markdown("<br>", unsafe_allow_html=True)
+
+# --- Parámetros del Sistema ---
+st.sidebar.title("Configuración")
+st.sidebar.markdown(
+    "<p style='color: #64748b; font-size: 0.85em; margin-bottom: 1.5rem;'>"
+    "Ajuste los parámetros para recalcular las variables en tiempo real."
+    "</p>", 
+    unsafe_allow_html=True
+)
+
+st.sidebar.subheader("Tubería")
+with st.sidebar.container(border=True):
     Q = st.slider(
         "Caudal Q (m³/s)",
         min_value=0.005, max_value=0.100, value=0.025, step=0.001,
@@ -131,6 +200,8 @@ with st.sidebar.expander("📐 Tubería", expanded=True):
     )
     Q_ls = Q * 1000  # L/s para mostrar
     st.caption(f"**Equivalente:** {Q_ls:.1f} L/s")
+    
+    st.divider()
 
     D = st.slider(
         "Diámetro D (m)",
@@ -139,6 +210,8 @@ with st.sidebar.expander("📐 Tubería", expanded=True):
         help="Diámetro interno de la tubería"
     )
     st.caption(f"**Equivalente:** {D*100:.1f} cm = {D*1000:.1f} mm")
+    
+    st.divider()
 
     epsilon = st.slider(
         "Rugosidad ε (m)",
@@ -147,12 +220,16 @@ with st.sidebar.expander("📐 Tubería", expanded=True):
         help="Rugosidad absoluta (acero comercial ≈ 0.046 mm)"
     )
 
-with st.sidebar.expander("💧 Fluido", expanded=False):
+st.sidebar.markdown("<br>", unsafe_allow_html=True)
+st.sidebar.subheader("Fluido")
+with st.sidebar.container(border=True):
     rho = st.slider(
         "Densidad ρ (kg/m³)",
         min_value=900.0, max_value=1100.0, value=998.0, step=1.0,
         help="Densidad del agua a ~20°C = 998 kg/m³"
     )
+    
+    st.divider()
     
     mu = st.slider(
         "Viscosidad μ (Pa·s)",
@@ -161,7 +238,9 @@ with st.sidebar.expander("💧 Fluido", expanded=False):
         help="Viscosidad dinámica del agua a ~20°C = 0.001 Pa·s"
     )
 
-with st.sidebar.expander("🔬 Modelo 3D", expanded=False):
+st.sidebar.markdown("<br>", unsafe_allow_html=True)
+st.sidebar.subheader("Visor 3D")
+with st.sidebar.container(border=True):
     tramo_3d = st.selectbox(
         "Tramo a visualizar",
         options=list(range(1, 9)),
@@ -197,16 +276,18 @@ pot_total_hp = kw_a_hp(pot_total_kw) if pot_total_kw > 0 else 0
 # ====================================
 # TÍTULO PRINCIPAL
 # ====================================
-st.title("� Sistema Hidráulico — Dashboard de Análisis")
+st.markdown("<h1 style='color: #0f172a; font-weight: 800; font-size: 2.2rem; letter-spacing: -0.03em; margin-bottom: 0;'>Sistema Hidráulico</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='color: #64748b; font-weight: 400; font-size: 1.2rem; margin-top: 0.2rem; margin-bottom: 1.5rem;'>Dashboard de Análisis Dinámico</h3>", unsafe_allow_html=True)
+
 st.markdown(
-    "**Proyecto de Procesos Unitarios** | Simulación de transporte de agua desde un río, "
-    "cruzando una montaña, hasta una planta industrial a **3.4 km** de distancia."
+    "Este panel permite simular y analizar el transporte de agua desde una fuente natural, "
+    "cruzando una montaña, hasta una planta industrial ubicada a **3.4 km** de distancia."
 )
 
 # ====================================
 # KPIs PRINCIPALES
 # ====================================
-st.markdown("### 📊 Indicadores Clave de Rendimiento (KPIs)")
+st.markdown("<h4 style='color: #334155; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem; font-size: 1.1rem;'>Indicadores Principales</h4>", unsafe_allow_html=True)
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
@@ -224,12 +305,13 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ====================================
 # PESTAÑAS PRINCIPALES
 # ====================================
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "🗺️ Mapa Piezométrico",
-    "🏔️ Perfil del Terreno",
-    "📈 Análisis de Pérdidas",
-    "🧊 Modelo 3D",
-    "📋 Datos Detallados",
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    "Mapa Piezométrico",
+    "Perfil Topográfico",
+    "Análisis de Pérdidas",
+    "Modelo 3D",
+    "Datos Origines",
+    "Documentación Formal",
 ])
 
 
@@ -248,9 +330,9 @@ with tab1:
     st.plotly_chart(fig_piezo, use_container_width=True)
     
     st.info(
-        "💡 **Interpretación:** La presión manométrica (panel inferior) debe mantenerse positiva "
-        "para evitar cavitación. Las bombas elevan la energía (saltos verdes) y la fricción + "
-        "accesorios la disipan gradualmente."
+        "**Análisis de presiones:** La presión manométrica (panel inferior) debe mantenerse por encima de cero "
+        "para mitigar el riesgo de cavitación. Las estaciones de bombeo introducen energía al sistema, mientras "
+        "que la rugosidad de la tubería y los accesorios instalados generan una disipación paulatina."
     )
 
 
@@ -378,14 +460,14 @@ with tab3:
         st.caption(f"K total = {defn['K_total']:.2f} | Pérdida total accesorios = {defn['K_total'] * hv:.4f} m")
     
     if defn.get('notas'):
-        st.info(f"📝 **Nota:** {defn['notas']}")
+        st.info(f"**Observación técnica:** {defn['notas']}")
 
 
 # ==============================
 # TAB 4: MODELO 3D
 # ==============================
 with tab4:
-    st.header(f"Modelo 3D Interactivo — Tramo {tramo_3d}")
+    st.header(f"Modelo 3D — Tramo {tramo_3d}")
     
     defn_3d = definiciones[tramo_3d]
     r_3d = resultados[tramo_3d]
@@ -417,15 +499,15 @@ with tab4:
     )
     
     if defn_3d.get('notas'):
-        st.info(f"📝 {defn_3d['notas']}")
+        st.info(f"**Observación técnica:** {defn_3d['notas']}")
 
 
 # ==============================
 # TAB 5: DATOS DETALLADOS
 # ==============================
 with tab5:
-    st.header("Datos Crudos del CSV")
-    st.markdown("Datos extraídos directamente del archivo `CALCULOS_HIDRAULICOS.csv`.")
+    st.header("Datos de Origen (CSV)")
+    st.markdown("Consulta de los datos técnicos extraídos del diseño.")
     
     datos = extraer_datos_completos()
     
@@ -513,6 +595,67 @@ with tab5:
         $$P = \rho \cdot g \cdot Q \cdot H \quad \text{[W]}$$
         """)
 
+
+# ==============================
+# TAB 6: DOCUMENTACIÓN
+# ==============================
+with tab6:
+    st.header("Documentación Formal")
+    st.markdown(
+        "Sección dedicada a la revisión técnica del proyecto. "
+        "A continuación se encuentra disponible el informe completo y la memoria de cálculo interactiva."
+    )
+    
+    st.divider()
+    
+    col_doc1, col_doc2 = st.columns([2, 1])
+    
+    with col_doc1:
+        st.subheader("📖 Vista Previa del Proyecto")
+        
+        # Leemos el archivo markdown del proyecto para la vista previa
+        md_path = Path("media/docs/PROYECTO.MD")
+        md_content = "⚠️ Contenido no disponible."
+        if md_path.exists():
+            with open(md_path, "r", encoding="utf-8") as f:
+                md_content = f.read()
+                
+        # Contenedor con scroll tipo "hoja de papel"
+        with st.container(height=600, border=True):
+            st.markdown(
+                "<style> "
+                ".stMarkdown { font-family: 'Inter', sans-serif; color: #334155; } "
+                "</style>", 
+                unsafe_allow_html=True
+            )
+            st.markdown(md_content)
+        
+    with col_doc2:
+        st.subheader("📥 Descargas")
+        with st.container(border=True):
+            st.markdown(
+                """
+                <div style="text-align: center; padding: 25px 10px;">
+                    <h4 style="margin: 0; color: #0f172a; font-size: 1.15rem; font-weight: 700;">INFORME TÉCNICO</h4>
+                    <p style="font-size: 0.85rem; color: #64748b; margin-top: 8px; margin-bottom: 20px;">Formato: Word (.docx)<br>Memoria de cálculo completa y fundamentación técnica.</p>
+                </div>
+                """, unsafe_allow_html=True
+            )
+            
+            informe_path_tab = Path("source/INFORME_PROYECTO.docx")
+            if informe_path_tab.exists():
+                with open(informe_path_tab, "rb") as f:
+                    st.download_button(
+                        label="Descargar Documento",
+                        data=f,
+                        file_name="INFORME_PROYECTO_Procesos_Unitarios.docx",
+                        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        type="primary",
+                        use_container_width=True,
+                        key="main_download_informe"
+                    )
+            else:
+                st.error("⚠️ Documento no disponible.")
 
 # ====================================
 # FOOTER
