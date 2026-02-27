@@ -1,0 +1,2497 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.20:8501
+  External URL: http://158.172.227.75:8501
+
+2026-02-27 11:23:13.084 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:13.102 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:13.105 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:13.108 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:23:14.585 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:14.601 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:14.603 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:23:14.604 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:24:34.130 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:24:34.146 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:24:34.148 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:24:34.150 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:29:03.770 304 GET / (127.0.0.1) 0.83ms
+2026-02-27 11:29:04.570 200 GET /_stcore/health (127.0.0.1) 0.75ms
+2026-02-27 11:29:04.570 304 GET /_stcore/host-config (127.0.0.1) 0.74ms
+2026-02-27 11:29:05.594 101 GET /_stcore/stream (127.0.0.1) 1.13ms
+2026-02-27 11:29:06.084 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:06.101 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:06.103 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:06.104 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:29:12.987 304 GET / (127.0.0.1) 0.86ms
+2026-02-27 11:29:13.298 304 GET /_stcore/host-config (127.0.0.1) 0.28ms
+2026-02-27 11:29:13.302 200 GET /_stcore/health (127.0.0.1) 0.26ms
+2026-02-27 11:29:13.881 101 GET /_stcore/stream (127.0.0.1) 1.13ms
+2026-02-27 11:29:14.157 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:14.173 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:14.176 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:29:14.177 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 298, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:32:30.546 304 GET / (127.0.0.1) 1.22ms
+2026-02-27 11:32:31.102 200 GET /_stcore/health (127.0.0.1) 0.43ms
+2026-02-27 11:32:31.122 304 GET /_stcore/host-config (127.0.0.1) 0.28ms
+2026-02-27 11:32:31.872 101 GET /_stcore/stream (127.0.0.1) 1.42ms
+2026-02-27 11:32:32.380 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:32:32.398 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:32:32.402 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:32:32.421 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 329, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:41:38.129 304 GET / (127.0.0.1) 1.04ms
+2026-02-27 11:41:38.658 304 GET /_stcore/host-config (127.0.0.1) 0.32ms
+2026-02-27 11:41:38.676 200 GET /_stcore/health (127.0.0.1) 0.39ms
+2026-02-27 11:41:39.460 101 GET /_stcore/stream (127.0.0.1) 1.63ms
+2026-02-27 11:41:39.925 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:41:39.943 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:41:39.945 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:41:39.947 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:41:40.144 200 GET /static/js/index.CbR6dgaV.js (127.0.0.1) 1.50ms
+2026-02-27 11:41:40.145 200 GET /static/js/iconPosition.B4EEXI3E.js (127.0.0.1) 2.08ms
+2026-02-27 11:41:41.084 200 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (127.0.0.1) 0.40ms
+2026-02-27 11:42:58.964 304 GET / (::1) 0.48ms
+2026-02-27 11:42:59.100 304 GET /_stcore/host-config (::1) 0.33ms
+2026-02-27 11:42:59.101 304 GET /_stcore/health (::1) 0.34ms
+2026-02-27 11:42:59.128 101 GET /_stcore/stream (::1) 0.56ms
+2026-02-27 11:42:59.207 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:42:59.226 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:42:59.231 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:42:59.232 200 GET /static/js/index.CbR6dgaV.js (::1) 5.97ms
+2026-02-27 11:42:59.233 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:42:59.236 200 GET /static/js/iconPosition.B4EEXI3E.js (::1) 9.22ms
+2026-02-27 11:42:59.431 200 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.40ms
+2026-02-27 11:43:00.024 304 GET / (::1) 0.38ms
+2026-02-27 11:43:00.080 304 GET /_stcore/health (::1) 0.41ms
+2026-02-27 11:43:00.081 304 GET /_stcore/host-config (::1) 0.23ms
+2026-02-27 11:43:00.088 101 GET /_stcore/stream (::1) 0.57ms
+2026-02-27 11:43:00.141 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:00.160 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:00.163 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:00.165 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:43:00.331 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.71ms
+2026-02-27 11:43:09.419 304 GET / (::1) 0.32ms
+2026-02-27 11:43:09.465 304 GET /_stcore/health (::1) 0.51ms
+2026-02-27 11:43:09.465 304 GET /_stcore/host-config (::1) 0.25ms
+2026-02-27 11:43:09.472 101 GET /_stcore/stream (::1) 0.69ms
+2026-02-27 11:43:09.529 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:09.549 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:09.553 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:09.555 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:43:09.712 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.34ms
+2026-02-27 11:43:11.659 200 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 2.20ms
+2026-02-27 11:43:11.708 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:11.728 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:11.731 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:43:11.733 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 372, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:48:58.541 304 GET / (::1) 0.46ms
+2026-02-27 11:48:58.663 304 GET /_stcore/health (::1) 0.48ms
+2026-02-27 11:48:58.664 304 GET /_stcore/host-config (::1) 0.34ms
+2026-02-27 11:48:58.672 101 GET /_stcore/stream (::1) 0.69ms
+2026-02-27 11:48:58.772 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:48:58.776 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.49ms
+2026-02-27 11:48:58.796 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:48:58.802 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:48:58.817 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:48:59.947 304 GET / (::1) 0.50ms
+2026-02-27 11:49:00.006 304 GET /_stcore/health (::1) 0.52ms
+2026-02-27 11:49:00.006 304 GET /_stcore/host-config (::1) 0.42ms
+2026-02-27 11:49:00.015 101 GET /_stcore/stream (::1) 0.57ms
+2026-02-27 11:49:00.083 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.113 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.116 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.118 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.42ms
+2026-02-27 11:49:00.119 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:00.486 304 GET / (::1) 0.34ms
+2026-02-27 11:49:00.700 304 GET /_stcore/health (::1) 0.43ms
+2026-02-27 11:49:00.701 304 GET /_stcore/host-config (::1) 0.23ms
+2026-02-27 11:49:00.708 101 GET /_stcore/stream (::1) 0.60ms
+2026-02-27 11:49:00.773 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.796 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.799 304 GET / (::1) 2.13ms
+2026-02-27 11:49:00.801 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:00.803 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+Task exception was never retrieved
+future: <Task finished name='Task-1147' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2026-02-27 11:49:00.976 304 GET /_stcore/health (::1) 0.89ms
+2026-02-27 11:49:00.976 304 GET /_stcore/host-config (::1) 0.94ms
+2026-02-27 11:49:00.984 101 GET /_stcore/stream (::1) 0.67ms
+2026-02-27 11:49:01.047 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:01.071 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:01.074 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:01.075 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:01.237 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.41ms
+2026-02-27 11:49:02.807 304 GET / (::1) 0.31ms
+2026-02-27 11:49:02.853 304 GET /_stcore/health (::1) 0.38ms
+2026-02-27 11:49:02.853 304 GET /_stcore/host-config (::1) 0.26ms
+2026-02-27 11:49:02.865 101 GET /_stcore/stream (::1) 0.59ms
+2026-02-27 11:49:02.920 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:02.941 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:02.944 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:02.945 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:03.103 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.48ms
+2026-02-27 11:49:03.602 304 GET / (::1) 0.36ms
+2026-02-27 11:49:03.659 304 GET /_stcore/health (::1) 0.79ms
+2026-02-27 11:49:03.661 304 GET /_stcore/host-config (::1) 0.38ms
+2026-02-27 11:49:03.670 101 GET /_stcore/stream (::1) 0.68ms
+2026-02-27 11:49:03.738 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:03.760 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:03.764 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:49:03.765 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:49:03.937 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.36ms
+2026-02-27 11:49:59.342 200 GET /_stcore/health (127.0.0.1) 0.40ms
+2026-02-27 11:49:59.343 304 GET /_stcore/host-config (127.0.0.1) 0.19ms
+2026-02-27 11:50:00.115 101 GET /_stcore/stream (127.0.0.1) 0.43ms
+2026-02-27 11:50:54.625 304 GET / (127.0.0.1) 0.32ms
+2026-02-27 11:50:55.212 200 GET /_stcore/health (127.0.0.1) 1.13ms
+2026-02-27 11:50:55.216 304 GET /_stcore/host-config (127.0.0.1) 0.25ms
+2026-02-27 11:50:55.802 101 GET /_stcore/stream (127.0.0.1) 0.51ms
+2026-02-27 11:50:56.092 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:56.112 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:56.115 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:56.117 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:50:56.439 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (127.0.0.1) 0.50ms
+2026-02-27 11:50:59.001 304 GET / (::1) 0.38ms
+2026-02-27 11:50:59.102 304 GET /_stcore/health (::1) 0.42ms
+2026-02-27 11:50:59.103 304 GET /_stcore/host-config (::1) 0.29ms
+2026-02-27 11:50:59.113 101 GET /_stcore/stream (::1) 1.77ms
+2026-02-27 11:50:59.202 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:59.225 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:59.228 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:50:59.230 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:50:59.400 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.42ms
+2026-02-27 11:51:00.124 304 GET / (::1) 0.37ms
+2026-02-27 11:51:00.174 304 GET /_stcore/health (::1) 0.41ms
+2026-02-27 11:51:00.174 304 GET /_stcore/host-config (::1) 0.31ms
+2026-02-27 11:51:00.182 101 GET /_stcore/stream (::1) 0.97ms
+2026-02-27 11:51:00.254 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:51:00.274 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:51:00.277 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:51:00.279 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 380, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:51:00.455 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.33ms
+2026-02-27 11:59:33.129 304 GET / (::1) 0.35ms
+2026-02-27 11:59:33.259 304 GET /_stcore/health (::1) 0.53ms
+2026-02-27 11:59:33.260 304 GET /_stcore/host-config (::1) 0.43ms
+2026-02-27 11:59:33.277 101 GET /_stcore/stream (::1) 0.83ms
+2026-02-27 11:59:33.418 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:33.440 200 GET /static/js/index.CV1sObFX.js (::1) 32.17ms
+2026-02-27 11:59:33.455 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:33.460 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:33.463 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:33.644 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.33ms
+2026-02-27 11:59:35.425 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:35.447 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:35.449 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:35.451 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:36.490 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:36.511 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:36.514 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:36.516 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:36.934 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:36.956 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:36.959 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:36.960 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:37.204 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.224 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.228 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.229 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:37.626 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.646 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.649 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.650 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:37.832 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.855 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.858 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:37.860 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:38.070 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:38.093 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:38.096 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:38.098 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:47.660 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:47.682 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:47.685 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:47.687 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:47.872 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:47.894 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:47.898 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:47.900 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:48.081 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:48.106 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:48.109 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:48.111 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 11:59:48.288 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:48.310 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:48.313 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 11:59:48.315 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/.venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/app.py", line 435, in <module>
+    datos = extraer_datos_completos()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 150, in extraer_datos_completos
+    filas = cargar_csv()
+  File "/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/core/datos.py", line 33, in cargar_csv
+    with open(ruta, 'r', encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cszv/cesarszv/playground/PROCESOS_UNITARIOS---PROYECTO_MOUNTAIN/PROCESOS UNITARIOS/CALCULOS_HIDRAULICOS.csv'
+2026-02-27 12:01:38.867 304 GET / (::1) 0.35ms
+2026-02-27 12:01:38.973 304 GET /_stcore/health (::1) 0.44ms
+2026-02-27 12:01:38.973 304 GET /_stcore/host-config (::1) 0.31ms
+2026-02-27 12:01:38.981 101 GET /_stcore/stream (::1) 0.99ms
+2026-02-27 12:01:39.053 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.079 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.083 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.090 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.108 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.120 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.28ms
+2026-02-27 12:01:39.143 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.148 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.154 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.163 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.165 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.166 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.171 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:39.355 200 GET /static/js/index.Br1kXwQW.js (::1) 1.41ms
+2026-02-27 12:01:39.436 200 GET /static/js/index.DjAJ_CUa.js (::1) 0.93ms
+2026-02-27 12:01:39.438 200 GET /static/js/IFrameUtil.DefezniK.js (::1) 1.05ms
+2026-02-27 12:01:39.563 200 GET /static/js/index.Bxwsv5T8.js (::1) 17.40ms
+2026-02-27 12:01:39.564 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (::1) 0.39ms
+2026-02-27 12:01:51.675 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.696 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.699 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.704 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.719 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.741 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.744 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.748 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.755 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.757 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.765 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:51.769 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.872 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.893 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.896 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.901 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.917 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.941 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.943 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.947 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.954 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.955 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.956 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:01:55.962 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:24.713 304 GET / (127.0.0.1) 0.31ms
+2026-02-27 12:02:25.279 200 GET /_stcore/health (127.0.0.1) 0.38ms
+2026-02-27 12:02:25.308 304 GET /_stcore/host-config (127.0.0.1) 0.29ms
+2026-02-27 12:02:26.089 101 GET /_stcore/stream (127.0.0.1) 0.49ms
+2026-02-27 12:02:26.542 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.562 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.564 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.568 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.582 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.601 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.604 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.607 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.613 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.614 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.615 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.620 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:26.815 200 GET /static/js/index.CV1sObFX.js (127.0.0.1) 1.04ms
+2026-02-27 12:02:26.914 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (127.0.0.1) 0.49ms
+2026-02-27 12:02:27.178 200 GET /static/js/index.Br1kXwQW.js (127.0.0.1) 0.88ms
+2026-02-27 12:02:27.555 200 GET /static/js/index.DjAJ_CUa.js (127.0.0.1) 0.84ms
+2026-02-27 12:02:27.560 200 GET /static/js/IFrameUtil.DefezniK.js (127.0.0.1) 0.51ms
+2026-02-27 12:02:27.621 304 GET /media/0d9198e2c7c9b6796340454012c046cc25ac70e001a80c87c1c45d15.docx (127.0.0.1) 0.34ms
+2026-02-27 12:02:27.629 200 GET /static/js/index.Bxwsv5T8.js (127.0.0.1) 7.74ms
+2026-02-27 12:02:30.471 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.490 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.493 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.497 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.511 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.531 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.534 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.537 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.543 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.545 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.547 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:02:30.552 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.238 304 GET / (::1) 0.44ms
+2026-02-27 12:07:50.366 304 GET /_stcore/health (::1) 0.44ms
+2026-02-27 12:07:50.367 304 GET /_stcore/host-config (::1) 0.37ms
+2026-02-27 12:07:50.384 101 GET /_stcore/stream (::1) 0.59ms
+2026-02-27 12:07:50.462 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.483 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.487 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.494 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.510 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.540 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.546 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.551 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.558 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.561 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.563 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.569 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:50.748 200 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (::1) 0.61ms
+2026-02-27 12:07:50.980 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (::1) 0.41ms
+2026-02-27 12:07:52.408 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.437 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.440 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.444 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.462 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.484 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.487 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.491 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.496 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.498 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.499 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:52.504 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.028 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.049 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.052 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.056 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.071 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.092 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.095 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.099 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.104 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.106 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.107 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:07:59.112 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.576 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.598 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.602 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.605 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.620 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.639 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.642 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.645 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.651 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.652 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.653 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:08:52.658 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.177 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.197 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.200 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.204 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.218 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.239 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.242 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.246 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.252 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.253 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.254 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.259 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.389 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.411 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.414 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.418 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.433 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.455 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.459 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.463 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.468 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.470 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.471 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:20.476 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.396 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.417 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.420 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.424 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.438 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.459 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.461 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.465 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.470 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.472 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.473 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:23.478 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:52.935 304 GET / (::1) 0.35ms
+2026-02-27 12:09:53.039 304 GET /_stcore/health (::1) 0.40ms
+2026-02-27 12:09:53.040 304 GET /_stcore/host-config (::1) 0.28ms
+2026-02-27 12:09:53.048 101 GET /_stcore/stream (::1) 0.64ms
+2026-02-27 12:09:53.118 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.145 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.148 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.154 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.170 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.191 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.192 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (::1) 3.14ms
+2026-02-27 12:09:53.194 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.200 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.209 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.214 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.216 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.222 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:09:53.593 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (::1) 0.50ms
+2026-02-27 12:10:39.096 304 GET / (127.0.0.1) 0.32ms
+2026-02-27 12:10:39.668 200 GET /_stcore/health (127.0.0.1) 0.52ms
+2026-02-27 12:10:39.694 304 GET /_stcore/host-config (127.0.0.1) 0.33ms
+2026-02-27 12:10:40.443 101 GET /_stcore/stream (127.0.0.1) 0.48ms
+2026-02-27 12:10:40.895 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.916 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.919 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.925 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.943 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.965 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.968 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.971 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.976 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.977 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.978 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:40.983 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:41.248 200 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (127.0.0.1) 0.38ms
+2026-02-27 12:10:42.013 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (127.0.0.1) 0.31ms
+2026-02-27 12:10:42.504 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.525 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.528 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.533 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.547 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.567 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.570 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.573 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.578 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.580 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.581 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:42.586 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.049 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.070 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.073 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.077 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.092 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.114 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.117 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.121 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.127 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.129 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.129 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:10:44.135 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.220 304 GET / (::1) 0.35ms
+2026-02-27 12:13:25.327 304 GET /_stcore/health (::1) 0.48ms
+2026-02-27 12:13:25.327 304 GET /_stcore/host-config (::1) 0.25ms
+2026-02-27 12:13:25.336 101 GET /_stcore/stream (::1) 0.65ms
+2026-02-27 12:13:25.409 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.434 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.437 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.444 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.468 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.493 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.497 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.501 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.507 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.509 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.510 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.515 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:25.520 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (::1) 0.73ms
+2026-02-27 12:13:25.922 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (::1) 0.41ms
+2026-02-27 12:13:46.966 304 GET / (127.0.0.1) 0.35ms
+2026-02-27 12:13:47.515 200 GET /_stcore/health (127.0.0.1) 0.46ms
+2026-02-27 12:13:47.541 304 GET /_stcore/host-config (127.0.0.1) 0.36ms
+2026-02-27 12:13:48.310 101 GET /_stcore/stream (127.0.0.1) 0.46ms
+2026-02-27 12:13:48.780 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.800 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.802 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.806 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.820 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.838 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.840 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.843 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.848 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.850 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.850 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:48.855 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:13:49.120 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (127.0.0.1) 0.33ms
+2026-02-27 12:13:49.594 304 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (127.0.0.1) 0.48ms
+2026-02-27 12:14:12.600 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.618 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.620 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.625 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.638 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.657 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.659 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.663 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.668 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.670 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.671 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:12.676 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.028 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.047 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.050 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.054 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.067 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.085 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.088 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.091 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.096 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.098 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.099 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:14.104 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:32.536 200 GET / (127.0.0.1) 0.93ms
+2026-02-27 12:14:34.822 200 GET /static/media/SourceSansVF-Upright.ttf.BsWL4Kly.woff2 (127.0.0.1) 10.26ms
+2026-02-27 12:14:34.866 200 GET /static/js/index.Drusyo5m.js (127.0.0.1) 43.85ms
+2026-02-27 12:14:34.868 200 GET /static/css/index.BUP6fTcR.css (127.0.0.1) 1.12ms
+2026-02-27 12:14:35.900 200 GET /_stcore/health (127.0.0.1) 0.80ms
+2026-02-27 12:14:35.928 200 GET /_stcore/host-config (127.0.0.1) 0.66ms
+2026-02-27 12:14:35.946 200 GET /favicon.png (127.0.0.1) 8.94ms
+2026-02-27 12:14:36.541 101 GET /_stcore/stream (127.0.0.1) 1.12ms
+2026-02-27 12:14:36.842 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.859 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.862 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.865 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.879 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.896 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.899 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.902 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.907 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.908 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.909 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:36.913 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:37.101 200 GET /static/media/MaterialSymbols-Rounded.C7IFxh57.woff2 (127.0.0.1) 9.79ms
+2026-02-27 12:14:37.106 200 GET /static/js/index.YYb2u0jk.js (127.0.0.1) 4.65ms
+2026-02-27 12:14:37.107 200 GET /static/js/index.bsVAaBS1.js (127.0.0.1) 0.58ms
+2026-02-27 12:14:37.131 200 GET /static/js/index.FsTmxLbT.js (127.0.0.1) 0.59ms
+2026-02-27 12:14:37.141 200 GET /static/js/iconPosition.B4EEXI3E.js (127.0.0.1) 0.43ms
+2026-02-27 12:14:37.142 200 GET /static/js/index.CbR6dgaV.js (127.0.0.1) 0.61ms
+2026-02-27 12:14:37.146 200 GET /static/js/createDownloadLinkElement.CG7nr2a4.js (127.0.0.1) 0.51ms
+2026-02-27 12:14:37.149 200 GET /static/js/withCalculatedWidth.Dxs9I5Oe.js (127.0.0.1) 0.37ms
+2026-02-27 12:14:37.152 200 GET /static/js/index.CIuaA8q0.js (127.0.0.1) 1.15ms
+2026-02-27 12:14:37.154 200 GET /static/js/useBasicWidgetState.DFklfao0.js (127.0.0.1) 0.41ms
+2026-02-27 12:14:37.155 200 GET /static/js/index.CV1sObFX.js (127.0.0.1) 0.41ms
+2026-02-27 12:14:37.156 200 GET /static/js/FormClearHelper.C__r5Llk.js (127.0.0.1) 0.49ms
+2026-02-27 12:14:37.158 200 GET /static/js/sprintf.DpPCfzXw.js (127.0.0.1) 0.43ms
+2026-02-27 12:14:37.159 200 GET /static/js/formatMoment.C6Hwn6X5.js (127.0.0.1) 0.43ms
+2026-02-27 12:14:37.160 200 GET /static/js/formatNumber.CMRgW9EJ.js (127.0.0.1) 0.39ms
+2026-02-27 12:14:37.162 200 GET /static/js/moment.C7qA8nIE.js (127.0.0.1) 1.82ms
+2026-02-27 12:14:37.171 200 GET /static/js/numbro.B9_PXfzp.js (127.0.0.1) 1.35ms
+2026-02-27 12:14:37.181 200 GET /static/js/timer.BZio6gjG.js (127.0.0.1) 0.56ms
+2026-02-27 12:14:37.190 200 GET /static/js/index.B0pzzCsH.js (127.0.0.1) 0.39ms
+2026-02-27 12:14:37.191 200 GET /static/js/index.D7SWG4Om.js (127.0.0.1) 0.57ms
+2026-02-27 12:14:37.213 200 GET /static/js/embed.u3PPfLkw.js (127.0.0.1) 22.10ms
+2026-02-27 12:14:37.214 200 GET /static/js/threshold.CUNQbqMA.js (127.0.0.1) 0.97ms
+2026-02-27 12:14:37.215 200 GET /static/js/value.DaKxGC7O.js (127.0.0.1) 1.66ms
+2026-02-27 12:14:37.216 200 GET /static/js/WidgetLabelHelpIconInline.DEXBrVlc.js (127.0.0.1) 2.08ms
+2026-02-27 12:14:37.231 200 GET /static/js/withFullScreenWrapper.DfpAcJxf.js (127.0.0.1) 0.63ms
+2026-02-27 12:14:37.355 200 GET /static/js/index.Dncue2pm.js (127.0.0.1) 114.48ms
+2026-02-27 12:14:37.359 200 GET /static/js/index.8HslT92O.js (127.0.0.1) 3.28ms
+2026-02-27 12:14:37.360 200 GET /static/js/toConsumableArray.gE9fMkLj.js (127.0.0.1) 3.75ms
+2026-02-27 12:14:37.361 200 GET /static/js/checkbox.BKgfzJZV.js (127.0.0.1) 4.39ms
+2026-02-27 12:14:37.362 200 GET /static/css/index.DgR7E2CV.css (127.0.0.1) 4.95ms
+2026-02-27 12:14:37.374 200 GET /static/js/index.s_E0s7LB.js (127.0.0.1) 16.74ms
+2026-02-27 12:14:37.375 200 GET /static/js/throttle.Cyw_V0Dq.js (127.0.0.1) 17.39ms
+2026-02-27 12:14:37.375 200 GET /static/js/_arrayIncludes.B19Iyn2B.js (127.0.0.1) 17.88ms
+2026-02-27 12:14:37.376 200 GET /static/js/index.Br1kXwQW.js (127.0.0.1) 18.36ms
+2026-02-27 12:14:37.376 200 GET /static/js/FileDownload.esm.AllYUuOW.js (127.0.0.1) 18.74ms
+2026-02-27 12:14:37.377 200 GET /static/js/index.DjAJ_CUa.js (127.0.0.1) 19.14ms
+2026-02-27 12:14:37.377 200 GET /static/js/IFrameUtil.DefezniK.js (127.0.0.1) 19.54ms
+2026-02-27 12:14:37.378 200 GET /static/js/_baseIndexOf.BTknn6Gb.js (127.0.0.1) 20.10ms
+2026-02-27 12:14:37.384 200 GET /static/js/pandasStylerUtils.B4tLYMwS.js (127.0.0.1) 25.89ms
+2026-02-27 12:14:37.387 200 GET /static/js/main.D_CmqChN.js (127.0.0.1) 29.12ms
+2026-02-27 12:14:37.388 200 GET /static/js/Toolbar.BHDNzWBx.js (127.0.0.1) 10.61ms
+2026-02-27 12:14:37.438 200 GET /static/js/index.Bxwsv5T8.js (127.0.0.1) 7.70ms
+2026-02-27 12:14:37.914 200 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (127.0.0.1) 0.91ms
+2026-02-27 12:14:37.918 200 GET /media/3a7dd0b4228d1b1ff37ae07cbe6b499077ae4264f9e5550a14f758d2.docx (127.0.0.1) 0.26ms
+2026-02-27 12:14:59.820 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.838 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.841 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.844 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.858 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.877 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.879 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.882 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.887 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.889 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.890 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:14:59.895 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-27 12:15:00.620 200 GET /static/media/SourceCodeVF-Upright.ttf.BjWn63N-.woff2 (127.0.0.1) 8.84ms
