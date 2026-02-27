@@ -175,6 +175,54 @@ st.markdown("""
     .github-btn:hover svg {
         transform: scale(1.05);
     }
+    
+    /* Dev Card (Sidebar) */
+    .dev-card {
+        margin-top: 2rem;
+        padding: 1.5rem 1rem;
+        border-radius: 12px;
+        background: linear-gradient(145deg, #ffffff, #f8fafc);
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+        text-align: center;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    .dev-card::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+        opacity: 0.8;
+    }
+    .dev-card:hover {
+        border-color: #cbd5e1;
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+        transform: translateY(-2px);
+    }
+    .dev-label {
+        font-size: 0.7rem;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 0 0 1rem 0;
+        font-weight: 600;
+    }
+    .dev-name {
+        font-size: 0.95rem;
+        color: #0f172a;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        margin: 0;
+        line-height: 1.3;
+    }
+    .dev-divider {
+        font-size: 0.8rem;
+        color: #cbd5e1;
+        margin: 0.35rem 0;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -284,6 +332,20 @@ with st.sidebar.container(border=True):
         format_func=lambda x: f"Tramo {x}",
         help="Selecciona el tramo para el modelo 3D interactivo"
     )
+
+st.sidebar.markdown(
+    """
+    <div class="dev-card">
+        <p class="dev-label">Desarrolladores</p>
+        <div style="display: flex; flex-direction: column;">
+            <p class="dev-name">Samuel Aguilera Araujo</p>
+            <p class="dev-divider">✦</p>
+            <p class="dev-name">Cesar Sebastian<br>Zambrana Ventura</p>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # ====================================
@@ -809,9 +871,19 @@ with tab6:
 # ====================================
 st.markdown("---")
 st.markdown(
-    "<div style='text-align:center; color:#7f8c8d; font-size:12px;'>"
-    "Proyecto de Procesos Unitarios — 5to Semestre | "
-    "Desarrollado con Python, Pandas, Plotly, Three.js y Streamlit"
-    "</div>",
+    """
+    <div style='text-align:center; padding: 1rem 0 2rem 0; font-family: "Inter", sans-serif;'>
+        <p style='color: #64748b; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.75rem;'>
+            Desarrolladores
+        </p>
+        <p style='color: #0f172a; font-size: 1.15rem; font-weight: 600; margin-bottom: 0.5rem; letter-spacing: -0.01em;'>
+            Samuel Aguilera Araujo <span style='color: #cbd5e1; font-weight: 400; margin: 0 0.75rem;'>|</span> Cesar Sebastian Zambrana Ventura
+        </p>
+        <p style='color:#94a3b8; font-size:0.85rem; margin-top: 1.5rem;'>
+            Proyecto de Procesos Unitarios — 5to Semestre <br>
+            <span style='font-size: 0.75rem;'>Python • Pandas • Plotly • Three.js • Streamlit</span>
+        </p>
+    </div>
+    """,
     unsafe_allow_html=True,
 )
