@@ -270,6 +270,38 @@ def calcular_sistema_completo(
         resultado['tipo'] = defn['tipo']
         resultado['accesorios'] = defn['accesorios']
         resultado['notas'] = defn.get('notas', '')
+        resultado['tanque_rompe_presion'] = defn.get('tanque_rompe_presion', True)
+        resultado['recibe_gravedad_de'] = defn.get('recibe_gravedad_de', None)
         resultados[num_tramo] = resultado
+    
+    # === Transferencia de energía gravitacional entre tramos ===
+    # Si un tramo descendente no tiene tanque rompe-presión, su cabeza
+    # gravitacional neta se transfiere al siguiente tramo, reduciendo
+    # la carga requerida por la bomba.
+    for num_tramo, defn in definiciones.items():
+        tramo_fuente = defn.get('recibe_gravedad_de')
+        if tramo_fuente is not None and tramo_fuente in resultados:
+            r_fuente = resultados[tramo_fuente]
+            d_fuente = definiciones[tramo_fuente]
+            
+            # Cabeza disponible = caída gravitacional - pérdidas en tramo fuente
+            cabeza_gravedad = (
+                abs(d_fuente['altura'])
+                - r_fuente['perdidas_friccion_colebrook'] * r_fuente['num_estaciones']
+                - r_fuente['perdidas_menores'] * r_fuente['num_estaciones']
+            )
+            cabeza_gravedad = max(0.0, cabeza_gravedad)
+            
+            # Recalcular carga de la bomba reducida
+            r = resultados[num_tramo]
+            H_original = r['carga_estacion']
+            H_reducida = max(0.0, H_original - cabeza_gravedad)
+            
+            r['cabeza_gravedad_recibida'] = cabeza_gravedad
+            r['carga_estacion_original'] = H_original
+            r['carga_estacion'] = H_reducida
+            r['carga_total'] = H_reducida * r['num_estaciones']
+            r['potencia_kw'] = potencia_bomba(rho, Q, H_reducida)
+            r['potencia_hp'] = kw_a_hp(r['potencia_kw'])
     
     return resultados

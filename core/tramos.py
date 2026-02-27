@@ -109,7 +109,7 @@ def obtener_definicion_tramos() -> dict:
     }
 
     # ==============================
-    # TRAMO 5: Bajada — válvula de estrangulamiento
+    # TRAMO 5: Bajada — tanques rompe-presión cada 100 m
     # ==============================
     tramos[5] = {
         'distancia': 129.05,
@@ -117,9 +117,10 @@ def obtener_definicion_tramos() -> dict:
         'pendiente': -57.17,
         'longitud_tuberia': 235.02,
         'z': 0.0,  # No se bombea, la gravedad hace el trabajo
-        'num_estaciones': 1,
+        'num_estaciones': 2,  # 2 sub-tramos de 100 m c/u con tanque rompe-presión
         'es_bajada': True,
-        'tipo': 'válvula de estrangulamiento',
+        'tipo': 'tanque rompe-presión',
+        'tanque_rompe_presion': True,
         'accesorios': [
             {'nombre': 'Salida de tanque previo', 'cantidad': 1, 'K': 0.5},
             {'nombre': 'Codos de ángulo dado', 'cantidad': 2, 'K': 0.35},
@@ -127,11 +128,11 @@ def obtener_definicion_tramos() -> dict:
             {'nombre': 'Salida a tanque receptor', 'cantidad': 1, 'K': 1.0},
         ],
         'K_total': 2.31,
-        'notas': 'Bajada gravitacional. Válvula de estrangulamiento controla velocidad a 1.34 m/s.',
+        'notas': 'Bajada con tanque rompe-presión a 100 m. Presión máx ≈ 0.98 MPa < 1.6 MPa.',
     }
 
     # ==============================
-    # TRAMO 6: Bajada — válvula de estrangulamiento
+    # TRAMO 6: Bajada — tanques rompe-presión cada 100 m
     # ==============================
     tramos[6] = {
         'distancia': 71.33,
@@ -139,9 +140,10 @@ def obtener_definicion_tramos() -> dict:
         'pendiente': -70.37,
         'longitud_tuberia': 209.34,
         'z': 0.0,
-        'num_estaciones': 1,
+        'num_estaciones': 2,  # 2 sub-tramos de 100 m c/u con tanque rompe-presión
         'es_bajada': True,
-        'tipo': 'válvula de estrangulamiento',
+        'tipo': 'tanque rompe-presión',
+        'tanque_rompe_presion': True,
         'accesorios': [
             {'nombre': 'Salida de tanque previo', 'cantidad': 1, 'K': 0.5},
             {'nombre': 'Codos de ángulo dado', 'cantidad': 2, 'K': 0.53},
@@ -149,12 +151,11 @@ def obtener_definicion_tramos() -> dict:
             {'nombre': 'Salida a tanque receptor', 'cantidad': 1, 'K': 1.0},
         ],
         'K_total': 2.68,
-        'K_valvula_estrangulamiento': 1077.42,
-        'notas': 'Bajada pronunciada (70.37°). K de estrangulamiento = 1077.42.',
+        'notas': 'Bajada con tanque rompe-presión a 100 m. Presión máx ≈ 0.98 MPa < 1.6 MPa.',
     }
 
     # ==============================
-    # TRAMO 7: Bajada final
+    # TRAMO 7: Bajada final → alimenta T8 por gravedad
     # ==============================
     tramos[7] = {
         'distancia': 57.60,
@@ -164,7 +165,8 @@ def obtener_definicion_tramos() -> dict:
         'z': 0.0,
         'num_estaciones': 1,
         'es_bajada': True,
-        'tipo': 'válvula de estrangulamiento',
+        'tipo': 'gravedad (alimenta T8)',
+        'tanque_rompe_presion': False,  # Sin tanque: energía se transfiere a T8
         'accesorios': [
             {'nombre': 'Salida de tanque previo', 'cantidad': 1, 'K': 0.5},
             {'nombre': 'Codos de 60°', 'cantidad': 2, 'K': 0.38},
@@ -172,12 +174,11 @@ def obtener_definicion_tramos() -> dict:
             {'nombre': 'Salida a tanque receptor', 'cantidad': 1, 'K': 1.0},
         ],
         'K_total': 2.37,
-        'K_valvula_estrangulamiento': 1076.84,
-        'notas': 'Bajada final a zona plana. K de estrangulamiento = 1076.84.',
+        'notas': 'Bajada por gravedad sin tanque rompe-presión. Cabeza se transfiere a T8. P máx: 100 m.c.a. ≈ 0.98 MPa < 1.6 MPa.',
     }
 
     # ==============================
-    # TRAMO 8: Subterráneo — hacia la empresa
+    # TRAMO 8: Subterráneo — hacia la empresa (bomba reducida por gravedad T7)
     # ==============================
     tramos[8] = {
         'distancia': 1837.50,
@@ -187,7 +188,8 @@ def obtener_definicion_tramos() -> dict:
         'z': 100.0,
         'num_estaciones': 1,
         'es_bajada': False,
-        'tipo': 'bomba',
+        'tipo': 'bomba (reducida por gravedad T7)',
+        'recibe_gravedad_de': 7,  # Cabeza gravitacional transferida desde T7
         'accesorios': [
             {'nombre': 'Entrada al tanque', 'cantidad': 1, 'K': 0.5},
             {'nombre': 'Codos de 90°', 'cantidad': 4, 'K': 0.45},
@@ -197,7 +199,7 @@ def obtener_definicion_tramos() -> dict:
             {'nombre': 'Salida a tanque en empresa', 'cantidad': 1, 'K': 1.0},
         ],
         'K_total': 5.67,
-        'notas': 'Tramo subterráneo. Cruza carretera (700 m). 4 codos de 90° + 2 de 60°.',
+        'notas': 'Bomba reducida gracias a cabeza gravitacional de T7. Cruza carretera (700 m).',
         'sub_segmentos': [
             {'nombre': 'Distancia previa a carretera', 'distancia': 250.0, 'altura': 0},
             {'nombre': 'Bajada', 'distancia': 0.0, 'altura': -10},

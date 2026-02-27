@@ -122,13 +122,45 @@ def crear_mapa_piezometrico(resultados: dict, Q: float, D: float) -> go.Figure:
             elev_acum += z_est
             dist_acum += dist_sub
             
-            # Si es bajada con válvula de estrangulamiento
+            # Si es bajada: manejar según tipo de control
             if r['es_bajada']:
-                valvulas_x.append(dist_acum)
-                valvulas_y.append(energia_actual)
-                valvulas_label.append(
-                    f'Válv. Estrang. T{num_tramo}\nDisipa energía gravitacional'
-                )
+                tiene_tanque = definiciones[num_tramo].get('tanque_rompe_presion', True)
+                
+                if tiene_tanque:
+                    # Tanque rompe-presión: resetear energía al nivel del tanque
+                    # Meta: HGL = elevación (presión = 0). EGL_meta = elev_acum + hv
+                    egl_meta = elev_acum + hv
+                    perdida = energia_actual - egl_meta
+                    
+                    valvulas_x.append(dist_acum)
+                    valvulas_y.append(energia_actual)
+                    valvulas_label.append(
+                        f'Tanque rompe-presión T{num_tramo}'
+                        + (f'-E{est+1}' if n_est > 1 else '')
+                        + f'\nDisipa: {perdida:.1f} m'
+                    )
+                    
+                    # Aplicar la pérdida para el siguiente tramo/estación
+                    energia_actual -= perdida
+                    
+                    # Agregar punto vertical para mostrar la caída
+                    if abs(perdida) > 0.01:
+                        dist_puntos.append(dist_acum)
+                        elev_puntos.append(elev_acum)
+                        egl_puntos.append(energia_actual)
+                        hgl_puntos.append(energia_actual - hv)
+                        presion_puntos.append(energia_actual - hv - elev_acum)
+                        etiquetas.append(f'Tanque T{num_tramo}' + (f'-E{est+1}' if n_est > 1 else ''))
+                else:
+                    # Sin tanque rompe-presión: la energía se transfiere al siguiente tramo
+                    # Solo marcador informativo (sin resetear energía)
+                    presion_local = energia_actual - hv - elev_acum
+                    valvulas_x.append(dist_acum)
+                    valvulas_y.append(energia_actual)
+                    valvulas_label.append(
+                        f'T{num_tramo} → Gravedad a T{num_tramo+1}'
+                        + f'\nCabeza disponible: {presion_local:.1f} m'
+                    )
     
     # ====== Crear figura ======
     fig = make_subplots(
